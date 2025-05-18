@@ -21,7 +21,6 @@ app.use('/api/user', userRouter)
 app.use('/api/cart', cartRouter)
 app.use('/api/food', foodRouter)
 app.use('/api/order', orderRouter)
-app.use('/images', express.static('uploads'))
 
 app.use(express.static(path.join(__dirname, 'frontend')))
 
